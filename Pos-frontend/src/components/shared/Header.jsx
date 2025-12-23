@@ -2,7 +2,7 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/logo.png";
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
         <h1 className="text-lg font-semibold text-[#f5f5f5]">Restro</h1>
       </div>
       {/* SEARCH */}
-      <div className="flex items-center gap-4 bg-[#1f1f1f]  rounded-[15px] px-5 py-2 w-[500px]">
+      <div className="flex items-center gap-4 bg-[#1f1f1f]  rounded-[15px] px-6 py-2 w-[500px]">
         <FaSearch className="text-[#f5f5f5]" />
         <input
           type="text"
