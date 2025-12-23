@@ -76,7 +76,7 @@ cd restaurant-pos-system
 
 The Restaurant POS System follows a **client-server architecture** with secure, real-time communication:
 
-```text
+
         ┌────────────────────┐
         │   React Frontend   │
         │  (User Interface) │
@@ -98,7 +98,7 @@ The Restaurant POS System follows a **client-server architecture** with secure, 
         │ (Database Storage) │
         └────────────────────┘
 
-text```
+
 ---
 
 ### ✅ Perfect for: GitHub portfolio, university projects, recruiter review, professional showcase
@@ -118,7 +118,7 @@ Do you want me to do that?
 
 ## 📂 Project Structure
 
-```text
+
 restaurant-pos-system/
 │
 ├── frontend/               # React.js front-end application
@@ -142,7 +142,6 @@ restaurant-pos-system/
 ├── README.md               # Project documentation
 └── package.json            # Project metadata & dependencies
 
-text```
 ---
  
 
