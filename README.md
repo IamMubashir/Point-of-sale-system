@@ -62,8 +62,10 @@ This **Restaurant POS System** provides a centralized, digital platform that imp
 - MongoDB (Local or MongoDB Atlas)  
 - Git  
 
+---
+
 ### Clone Repository
-```bash
+
 git clone https://github.com/your-username/restaurant-pos-system.git
 cd restaurant-pos-system
 
@@ -81,7 +83,7 @@ restaurant-pos-system/
 ├── README.md
 └── package.json
 
---
+---
 ## 🏗️ System Architecture
 
 ```text
@@ -91,8 +93,7 @@ React Frontend <----> Node.js/Express Backend <----> MongoDB
           |
        JWT Auth
 
----
---
+
 ---
 ### ✅ Perfect for: GitHub portfolio, university projects, recruiter review, professional showcase
 
