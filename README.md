@@ -71,22 +71,9 @@ cd restaurant-pos-system
 
 ---
 
-### 📂 Project Structure
-restaurant-pos-system/
-│
-├── frontend/          # React UI
-├── backend/           # Node & Express APIs
-│   ├── models/        # MongoDB schemas
-│   ├── routes/        # API routes
-│   ├── controllers/   # Business logic
-│   └── middleware/    # Auth & utilities
-├── README.md
-└── package.json
 
----
 ## 🏗️ System Architecture
 
-```text
 React Frontend <----> Node.js/Express Backend <----> MongoDB
           |                           |
       REST APIs                   Business Logic
@@ -95,6 +82,7 @@ React Frontend <----> Node.js/Express Backend <----> MongoDB
 
 
 ---
+
 ### ✅ Perfect for: GitHub portfolio, university projects, recruiter review, professional showcase
 
 ---
@@ -107,6 +95,35 @@ If you want, I can make a **next-level version** with:
 This makes the README **look modern and interactive** for GitHub.  
 
 Do you want me to do that?
+
+---
+
+## 📂 Project Structure
+
+```text
+restaurant-pos-system/
+│
+├── frontend/               # React.js front-end application
+│   ├── public/             # Public assets (HTML, favicon, images)
+│   └── src/                # React source code
+│       ├── components/     # Reusable UI components
+│       ├── pages/          # Application pages/screens
+│       ├── redux/          # State management (slices, store)
+│       ├── services/       # API calls and integrations
+│       └── styles/         # CSS/SCSS styling
+│
+├── backend/                # Node.js & Express.js API
+│   ├── config/             # Database & environment configuration
+│   ├── controllers/        # Business logic for API routes
+│   ├── middleware/         # Authentication, error handling, utilities
+│   ├── models/             # Mongoose schemas for MongoDB
+│   ├── routes/             # API route definitions
+│   └── utils/              # Helper functions
+│
+├── .env                    # Environment variables
+├── README.md               # Project documentation
+└── package.json            # Project metadata & dependencies
+
 
 ---
  
