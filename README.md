@@ -55,17 +55,6 @@ This **Restaurant POS System** provides a centralized, digital platform that imp
 
 ---
 
-## 🏗️ System Architecture
-
-```text
-React Frontend <----> Node.js/Express Backend <----> MongoDB
-          |                           |
-      REST APIs                   Business Logic
-          |
-       JWT Auth
-
----
-
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
@@ -92,7 +81,18 @@ restaurant-pos-system/
 ├── README.md
 └── package.json
 
+--
+## 🏗️ System Architecture
 
+```text
+React Frontend <----> Node.js/Express Backend <----> MongoDB
+          |                           |
+      REST APIs                   Business Logic
+          |
+       JWT Auth
+
+---
+--
 ---
 ### ✅ Perfect for: GitHub portfolio, university projects, recruiter review, professional showcase
 
