@@ -72,15 +72,33 @@ cd restaurant-pos-system
 ---
 
 
-## 🏗️ System Architecture
+### 🏗️ System Architecture
 
-React Frontend <----> Node.js/Express Backend <----> MongoDB
-          |                           |
-      REST APIs                   Business Logic
-          |
-       JWT Auth
+The Restaurant POS System follows a **client-server architecture** with secure, real-time communication:
 
+```text
+        ┌────────────────────┐
+        │   React Frontend   │
+        │  (User Interface) │
+        └─────────┬─────────┘
+                  │
+                  │  REST API calls
+                  ▼
+        ┌────────────────────┐
+        │ Node.js / Express  │
+        │     Backend        │
+        │ Business Logic &   │
+        │   API Endpoints    │
+        └─────────┬─────────┘
+                  │
+                  │ Mongoose / MongoDB Driver
+                  ▼
+        ┌────────────────────┐
+        │      MongoDB       │
+        │ (Database Storage) │
+        └────────────────────┘
 
+text```
 ---
 
 ### ✅ Perfect for: GitHub portfolio, university projects, recruiter review, professional showcase
@@ -124,7 +142,7 @@ restaurant-pos-system/
 ├── README.md               # Project documentation
 └── package.json            # Project metadata & dependencies
 
-
+text```
 ---
  
 
