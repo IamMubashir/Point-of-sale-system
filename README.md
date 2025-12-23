@@ -118,10 +118,10 @@ Do you want me to do that?
 
 ## 📂 Project Structure
 
-
+````text
 restaurant-pos-system/
 │
-├── frontend/               # React.js front-end application
+├── frontend/                React.js front-end application
 │   ├── public/             # Public assets (HTML, favicon, images)
 │   └── src/                # React source code
 │       ├── components/     # Reusable UI components
